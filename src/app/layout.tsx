@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { ThemeProvider } from "@/components/theme-provider";
-import { useTheme } from "next-themes"
-import { Button } from "@/components/ui/button";
-import { Moon, Sun } from "lucide-react";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,18 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          
-          <div className="h-screen w-screen  bg-neutral-950  relative antialiased">
-            <div className="h-full w-full p-4 relative z-10 ">{children}</div>
-            <BackgroundBeams />
-          </div>
-        </ThemeProvider>
+        <div className="h-screen w-screen  bg-neutral-950  relative antialiased">
+          <div className="h-full w-full p-4 relative z-10 ">{children}</div>
+          <BackgroundBeams />
+        </div>
       </body>
     </html>
   );
