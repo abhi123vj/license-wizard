@@ -2,9 +2,9 @@ import React from "react";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-import LicenseFormData from "./_components/form";
+import LicenseFormData from "./_components/client/form";
 import { Separator } from "@/components/ui/separator";
-import GeneratedKeys from "./_components/generatedKeys";
+import GeneratedKeys from "./_components/generated-keys";
 
 function Page() {
 
