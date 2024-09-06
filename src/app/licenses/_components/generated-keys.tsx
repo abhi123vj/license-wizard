@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { ArrowDownToLine, Clipboard } from "lucide-react";
 import React from "react";
-import KeyList from "./client/key-list";
-import KeyInfo from "./client/key-info";
+import KeyList from "./key-list";
+import KeyInfo from "./key-info";
 
 const GeneratedKeys = () => {
   const tags = Array.from({ length: 1000 }).map(
@@ -62,7 +62,7 @@ const GeneratedKeys = () => {
         </div>
       </div>
       <div className="h-[40%] w-[90%] md:w-[80%] xl:h-[40%]  flex justify-center items-center bg-slate-300 rounded-md shadow-md ">
-        <KeyInfo className="w-full h-full p-4 " />
+        {/* <KeyInfo className="w-full h-full p-4 " /> */}
       </div>
     </div>
   );

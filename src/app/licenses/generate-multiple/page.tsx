@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import LicenseFormData from "./_components/client/form";
 import { Separator } from "@/components/ui/separator";
-import GeneratedKeys from "./_components/generated-keys";
+import GeneratedKeys from "../_components/generated-keys";
 
 function Page() {
 

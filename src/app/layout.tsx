@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <div className="h-screen w-screen  bg-neutral-950  relative antialiased">
           <div className="h-full w-full p-4 relative z-10 ">{children}</div>
-          {/* <BackgroundBeams /> */}
+          <BackgroundBeams />
         </div>
       </body>
     </html>
