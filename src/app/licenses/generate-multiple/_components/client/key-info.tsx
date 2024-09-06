@@ -16,7 +16,7 @@ const KeyInfo: React.FC<KeyInfoProps> = ({ className }) => {
   return (
     <div className={className}>
       <Table className="bg-slate-100 rounded shadow-lg  ">
-        <TableCaption>The list of keys generated on 20-02-200.</TableCaption>
+        <TableCaption>The list of keys generated on 20-02-2000.</TableCaption>
         <TableHeader>
           <TableRow>
             <TableHead className="">Key</TableHead>
