@@ -3,6 +3,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <h1 className="">Hi</h1>
+  <h1 className="bg-white h-[400rem]">Hi</h1>
   );
 }
